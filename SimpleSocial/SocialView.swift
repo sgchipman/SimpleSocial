@@ -46,14 +46,15 @@ struct SocialView: View {
                                 }
                                 HStack {
                                     Button(action: {
-                                        
+                                        // TODO: Replies
                                     }) {
                                         Image(systemName: "bubble.left")
                                             .foregroundStyle(Color.black)
                                     }
                                     
                                     Button(action: {
-                                        
+                                        // TODO: How can we make this work?
+                                        // model.favorite.toggle()
                                     }) {
                                         if model.favorite {
                                             Image(systemName: "heart.fill")
@@ -75,10 +76,10 @@ struct SocialView: View {
                                             // do stuff
                                         }
                                         Button("Mute Account") {
-                                            
+                                            // do stuff
                                         }
                                         Button("Report Post") {
-                                            
+                                            // do stuff
                                         }
                                         
                                     } label: {
