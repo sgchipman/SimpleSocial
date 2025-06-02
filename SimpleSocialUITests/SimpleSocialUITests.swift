@@ -2,8 +2,7 @@
 //  SimpleSocialUITests.swift
 //  SimpleSocialUITests
 //
-//  Created by Steven Chipman on 5/29/25.
-//
+
 
 import XCTest
 
